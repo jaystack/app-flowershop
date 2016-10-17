@@ -1,0 +1,27 @@
+{
+  "name": "app-flowershop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "typings": "node_modules/.bin/typings install",
+    "tsc": "node_modules/.bin/tsc",
+    "tsc:w": "node_modules/.bin/tsc -w",
+    "build": "npm run typings && npm run tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "compoxure": "^1.0.15",
+    "config": "^1.21.0",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {
+    "typescript": "2.1.0-dev.20161011",
+    "typings": "^1.4.0"
+  }
+}

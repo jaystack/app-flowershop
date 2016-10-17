@@ -1,0 +1,58 @@
+{
+  "cdn": {
+    "url": "http://localhost:3001/"
+  },
+  "parameters": {
+    "servers": {
+      "item": "http://item:3001",
+      "cart": "http://cart:3000"
+    },
+    "urls": [
+      {
+        "pattern": "/category/(\\d+)",
+        "names": [
+          "categoryId"
+        ]
+      }
+    ]
+  },
+  "backend": [
+    {
+      "pattern": "/vendor/.*",
+      "timeout": 1000,
+      "target": "http://item:3001",
+      "host": "localhost",
+      "ttl": "10s",
+      "quietFailure": false,
+      "dontPassUrl": false
+    },
+    {
+      "pattern": "/cart/.*",
+      "timeout": 1000,
+      "target": "http://cart:3000",
+      "host": "localhost",
+      "ttl": "10s",
+      "quietFailure": false,
+      "dontPassUrl": false,
+      "passThrough": true,
+      "headers": [
+        "fs_cart"
+      ]
+    },
+    {
+      "pattern": "^(/|/category/.+|/checkout)$",
+      "timeout": 1000,
+      "target": "http://item:3001",
+      "host": "localhost",
+      "ttl": "10s",
+      "quietFailure": false,
+      "dontPassUrl": false
+    }
+  ],
+  "statusCodeHandlers": {
+    "302": {
+      "fn": "handle302"
+    }
+  },
+  "followRedirect": false
+}
