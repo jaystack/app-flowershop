@@ -3,6 +3,7 @@ import * as express from 'express'
 import * as config from 'config';
 import * as cookieParser from 'cookie-parser'
 import * as logger from 'morgan'
+import * as path from 'path'
 
 (<any>config).functions = {
   'handle302': function (req, res, variables, data, options, err, responseCallback) {
@@ -16,6 +17,7 @@ let pageComposer = cx(config)
 let app = express()
 app.use(logger('dev'))
 app.use(cookieParser())
+app.use(express.static(path.join('./public')));
 app.use(pageComposer)
 
 app.listen(9000, () => {
