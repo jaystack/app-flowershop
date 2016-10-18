@@ -1,10 +1,10 @@
 {
   "cdn": {
-    "url": "http://localhost:3001/"
+    "url": "http://flowershop.corpjs.jaystack.com/"
   },
   "parameters": {
     "servers": {
-      "item": "http://item:3001",
+      "items": "http://items:3001",
       "cart": "http://cart:3000"
     },
     "urls": [
@@ -17,15 +17,6 @@
     ]
   },
   "backend": [
-    {
-      "pattern": "/vendor/.*",
-      "timeout": 1000,
-      "target": "http://item:3001",
-      "host": "localhost",
-      "ttl": "10s",
-      "quietFailure": false,
-      "dontPassUrl": false
-    },
     {
       "pattern": "/cart/.*",
       "timeout": 1000,
@@ -42,7 +33,7 @@
     {
       "pattern": "^(/|/category/.+|/checkout)$",
       "timeout": 1000,
-      "target": "http://item:3001",
+      "target": "http://items:3001",
       "host": "localhost",
       "ttl": "10s",
       "quietFailure": false,
