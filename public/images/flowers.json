@@ -1,185 +1,215 @@
 { 
-    "Name" : "Virag1", 
+    "Name" : "Amanda", 
     "ImageUrl" : "/images/flowers/pexels-photo-27714.jpg", 
     "Price" : 8.35, 
-    "Category" : "other"
+    "Category" : "purple"
 }
 { 
-    "Name" : "Other1", 
+    "Name" : "Autumn", 
     "ImageUrl" : "/images/flowers/other.jpg", 
     "Price" : 8.35, 
     "Category" : "other"
 }
 { 
-    "Name" : "Other2", 
+    "Name" : "Fantasy", 
     "ImageUrl" : "/images/flowers/other2.jpg", 
     "Price" : 8.35, 
     "Category" : "other"
 }
 { 
-    "Name" : "Cke", 
+    "Name" : "Balcony", 
+    "ImageUrl" : "/images/flowers/other3.jpg", 
+    "Price" : 8.35, 
+    "Category" : "other"
+}
+{ 
+    "Name" : "White Cat", 
     "ImageUrl" : "/images/flowers/cat1.jpg", 
     "Price" : 100.00, 
     "Category" : "cats"
 }
 { 
-    "Name" : "M", 
+    "Name" : "Abyssinian Cat", 
     "ImageUrl" : "/images/flowers/cat2.jpg", 
     "Price" : 1000.00, 
     "Category" : "cats"
 }
 { 
-    "Name" : "M2", 
+    "Name" : "Cat kit", 
     "ImageUrl" : "/images/flowers/cat3.jpg", 
     "Price" : 1500.00, 
     "Category" : "cats"
 }
 { 
-    "Name" : "Crystaltree", 
+    "Name" : "Crystal tree", 
     "ImageUrl" : "/images/flowers/crystal.jpg", 
     "Price" : 10.00, 
     "Category" : "crystal"
 }
 { 
-    "Name" : "Crystalflower", 
+    "Name" : "Crystal flower", 
     "ImageUrl" : "/images/flowers/crystal2.jpg", 
     "Price" :3.50, 
     "Category" : "crystal"
 }
 { 
-    "Name" : "Purple1", 
+    "Name" : "Purple Pair", 
     "ImageUrl" : "/images/flowers/purple_wild3.jpg", 
     "Price" :7.00, 
     "Category" : "purple"
 }
 { 
-    "Name" : "Wild1", 
+    "Name" : "Wild Fantasy", 
     "ImageUrl" : "/images/flowers/purple_wild3.jpg", 
     "Price" :9.50, 
     "Category" : "wild"
 }
 { 
-    "Name" : "Purple2", 
+    "Name" : "Green Bridge", 
+    "ImageUrl" : "/images/flowers/wild11.jpg", 
+    "Price" :9.50, 
+    "Category" : "wild"
+}
+{ 
+    "Name" : "Purple Dream", 
     "ImageUrl" : "/images/flowers/purple.jpg", 
     "Price" :7.00, 
     "Category" : "purple"
 }
 { 
-    "Name" : "Purple3", 
+    "Name" : "Cindy", 
     "ImageUrl" : "/images/flowers/purple2.jpg", 
     "Price" :13.00, 
     "Category" : "purple"
 }
 { 
-    "Name" : "Purple4", 
+    "Name" : "Pink Dream", 
     "ImageUrl" : "/images/flowers/purple_garden4.jpg", 
     "Price" :14.00, 
     "Category" : "purple"
 }
 { 
-    "Name" : "Purple5", 
+    "Name" : "Rose", 
+    "ImageUrl" : "/images/flowers/purple_garden4.jpg", 
+    "Price" :14.00, 
+    "Category" : "rose"
+}
+{ 
+    "Name" : "Paris", 
     "ImageUrl" : "/images/flowers/purple_wild.jpg", 
     "Price" :14.00, 
     "Category" : "wild"
 }
 { 
-    "Name" : "Purple6", 
+    "Name" : "Petra", 
     "ImageUrl" : "/images/flowers/purple_wild2.jpg", 
     "Price" :14.00, 
     "Category" : "wild"
 }
 { 
-    "Name" : "Purple7", 
-    "ImageUrl" : "/images/flowers/purple_wild3.jpg", 
+    "Name" : "Purple", 
+    "ImageUrl" : "/images/flowers/purple5.jpg", 
     "Price" :17.00, 
     "Category" : "purple"
 }
 { 
-    "Name" : "Purple8", 
+    "Name" : "Sarah", 
     "ImageUrl" : "/images/flowers/purple_wild4.jpg", 
     "Price" :10.00, 
     "Category" : "wild"
 }
 { 
-    "Name" : "Red1", 
+    "Name" : "Sarah", 
+    "ImageUrl" : "/images/flowers/purple_wild4.jpg", 
+    "Price" :10.00, 
+    "Category" : "purple"
+}
+{ 
+    "Name" : "Red flower", 
     "ImageUrl" : "/images/flowers/red.jpg", 
     "Price" :14.00, 
     "Category" : "red"
 }
 { 
-    "Name" : "Red2", 
+    "Name" : "Red garden", 
     "ImageUrl" : "/images/flowers/red_garden.jpg", 
     "Price" :145.00, 
     "Category" : "red"
 }
 { 
-    "Name" : "Red3", 
+    "Name" : "Red", 
     "ImageUrl" : "/images/flowers/red_garden2.jpg", 
     "Price" :1.00, 
     "Category" : "red"
 }
 { 
-    "Name" : "Red4", 
+    "Name" : "Red Dream", 
     "ImageUrl" : "/images/flowers/red_garden3.jpg", 
     "Price" :11.00, 
     "Category" : "red"
 }
 { 
-    "Name" : "Red5", 
+    "Name" : "Rocky", 
     "ImageUrl" : "/images/flowers/red_wild.jpg", 
     "Price" :11.00, 
     "Category" : "wild"
 }
 { 
-    "Name" : "Rose1", 
+    "Name" : "Rose variation", 
     "ImageUrl" : "/images/flowers/rose2.jpg", 
     "Price" :11.00, 
     "Category" : "rose"
 }
 { 
-    "Name" : "Rose2", 
+    "Name" : "Rosy", 
     "ImageUrl" : "/images/flowers/rose3.jpg", 
     "Price" :16.00, 
     "Category" : "rose"
 }
 { 
-    "Name" : "Rose3", 
-    "ImageUrl" : "/images/flowers/rose3.jpg", 
+    "Name" : "Gigi", 
+    "ImageUrl" : "/images/flowers/rose4.jpg", 
     "Price" :9.00, 
     "Category" : "rose"
 }
 { 
-    "Name" : "Rose4", 
+    "Name" : "Regina", 
     "ImageUrl" : "/images/flowers/rose_balcony.jpg", 
     "Price" :10.00, 
     "Category" : "rose"
 }
 { 
-    "Name" : "Rose5", 
+    "Name" : "Roses", 
     "ImageUrl" : "/images/flowers/rose_garden.jpg", 
     "Price" :10.00, 
     "Category" : "rose"
 }
 { 
-    "Name" : "White", 
+    "Name" : "Snow", 
     "ImageUrl" : "/images/flowers/white.jpg", 
     "Price" :10.00, 
     "Category" : "white"
 }
 { 
-    "Name" : "White2", 
+    "Name" : "White Dream", 
+    "ImageUrl" : "/images/flowers/white5.jpg", 
+    "Price" :10.00, 
+    "Category" : "white"
+}
+{ 
+    "Name" : "White", 
     "ImageUrl" : "/images/flowers/white_garden.jpg", 
     "Price" :10.00, 
     "Category" : "white"
 }
 { 
-    "Name" : "White3", 
+    "Name" : "White Heart", 
     "ImageUrl" : "/images/flowers/white_garden2.jpg", 
     "Price" :140.00, 
     "Category" : "white"
 }
 { 
-    "Name" : "White4", 
+    "Name" : "White versions", 
     "ImageUrl" : "/images/flowers/white_garden3.jpg", 
     "Price" :10.00, 
     "Category" : "white"
@@ -191,7 +221,7 @@
     "Category" : "wild"
 }
 { 
-    "Name" : "Wild2", 
+    "Name" : "Wild flower", 
     "ImageUrl" : "/images/flowers/wild2.jpg", 
     "Price" :10.00, 
     "Category" : "wild"
@@ -203,7 +233,7 @@
     "Category" : "wild"
 }
 { 
-    "Name" : "yellow", 
+    "Name" : "Yellow", 
     "ImageUrl" : "/images/flowers/yellow4.jpg", 
     "Price" :10.00, 
     "Category" : "yellow"
@@ -211,24 +241,30 @@
 { 
     "Name" : "yellow2", 
     "ImageUrl" : "/images/flowers/yellow5.jpg", 
-    "Price" :100.00, 
+    "Price" : 100.00, 
     "Category" : "yellow"
 }
 { 
     "Name" : "yellow3", 
-    "ImageUrl" : "/images/flowers/yellow5.jpg", 
-    "Price" :1.00, 
+    "ImageUrl" : "/images/flowers/yellow11.jpg", 
+    "Price" : 1.00, 
     "Category" : "yellow"
 }
 { 
-    "Name" : "yellow4", 
+    "Name" : "Orange", 
+    "ImageUrl" : "/images/flowers/yellow12.jpg", 
+    "Price" : 21.00, 
+    "Category" : "yellow"
+}
+{ 
+    "Name" : "Wild yellow", 
     "ImageUrl" : "/images/flowers/yellow_garden.jpg", 
-    "Price" :10.00, 
+    "Price" : 130.00, 
     "Category" : "yellow"
 }
 { 
-    "Name" : "yellow5", 
+    "Name" : "Canary", 
     "ImageUrl" : "/images/flowers/yellow_wild.jpg", 
-    "Price" :10.00, 
-    "Category" : "wild"
+    "Price" : 10.00, 
+    "Category" : "yellow"
 }
