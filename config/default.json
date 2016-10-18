@@ -4,7 +4,7 @@
   },
   "parameters": {
     "servers": {
-      "item": "http://localhost:3001",
+      "items": "http://localhost:3001",
       "cart": "http://localhost:3000"
     },
     "urls": [
