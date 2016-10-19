@@ -24,4 +24,4 @@ app.listen(9000, () => {
   console.log('app listen on port 9000')
 })
 
-export default {}
+export default config
