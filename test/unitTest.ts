@@ -1,6 +1,6 @@
 import * as config from '../src/index';
 
-describe('Calculator', () => {
+describe('flowershop test', () => {
     beforeEach(function () {
     });
 
