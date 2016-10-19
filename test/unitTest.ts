@@ -1,5 +1,4 @@
-/// <reference path="../typings/globals/mocha/index.d.ts" />
-import * as config from '../lib/index';
+import * as config from '../src/index';
 
 describe('Calculator', () => {
     beforeEach(function () {
