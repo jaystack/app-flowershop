@@ -15,6 +15,6 @@
   "exclude": [
     "node_modules",
     "lib",
-    "typescript_def"
+	"@types"
   ]
 }
