@@ -4,6 +4,7 @@ import * as config from 'config';
 import * as cookieParser from 'cookie-parser'
 import * as logger from 'morgan'
 import * as path from 'path'
+import { getServiceAddress } from 'system-endpoints'
 
 (<any>config).functions = {
   'handle302': function (req, res, variables, data, options, err, responseCallback) {

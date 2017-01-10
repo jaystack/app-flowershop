@@ -45,5 +45,6 @@
       "fn": "handle302"
     }
   },
-  "followRedirect": false
+  "followRedirect": false,
+  "systemEndpoints": "./system-endpoints.json"
 }
