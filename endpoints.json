@@ -1,0 +1,12 @@
+{
+  "currentHost": "1.2.3.4",
+  "hosts": [
+    {
+      "alias": "server",
+      "endpoint": {
+        "host": "localhost",
+        "port": 9000
+      }
+    }
+  ]
+}

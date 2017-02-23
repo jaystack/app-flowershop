@@ -1,0 +1,14 @@
+{
+  "systemEndpoints": {
+    "currentHost": "localhost",
+    "hosts": [
+      {
+        "alias": "server",
+        "endpoint": {
+          "host": "localhost",
+          "port": 9000
+        }
+      }
+    ]
+  }
+}

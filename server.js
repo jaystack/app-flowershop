@@ -1,5 +1,5 @@
-const winston = require('winston');
-const pkg = require('./package.json');
+//const winston = require('winston');
+//const pkg = require('./package.json');
 const app = require('./lib/src/index').default;
 
-winston.info('Started', pkg.name);
+//app.on('start', () => winston.info('Started', pkg.name))
