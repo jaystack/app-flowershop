@@ -10,11 +10,6 @@ const {name} = require('../../package.json')
 const inProductionEnv = process.env.NODE_ENV === 'production'
 process.on('unhandledRejection', err => console.error(err))
 
-const cxSubSys = new System({ exitOnError: inProductionEnv })
-cxSubSys
-  .add('cxSubSys', CxConfig())
-  .on('start', () => console.log('Started cxSubSys'))
-
 const sys = new System({ exitOnError: inProductionEnv })
 export function stopSystem() { sys.stop() }
 export function restartSystem() { sys.restart() }
