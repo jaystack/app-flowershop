@@ -31,12 +31,12 @@ const config = {
       () => new winston.transports.File({
         level: "info",
         filename: loggerFileName
-        // ,handleExceptions: true
-        // ,json: true
-        // ,maxsize: 5242880
-        // ,maxFiles: 5
-        // ,colorize: false
-        // ,timestamp: true
+        ,handleExceptions: true
+        ,json: true
+        ,maxsize: 5242880
+        ,maxFiles: 5
+        ,colorize: false
+        ,timestamp: true
       })
     ]
   },
