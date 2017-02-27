@@ -36,8 +36,7 @@ const config = {
         ,timestamp: true
       })
     ]
-  },
-  cx: { "test": "cx" }
+  }
 }
 
 module.exports = config
