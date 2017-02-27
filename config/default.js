@@ -11,17 +11,6 @@ mkdirp(loggerDir, function (err) {
     return console.log(`Log folder: '${loggerDir}' ('${loggerFileName}')`)
 });
 
-const fileTransport = new winston.transports.File({
-        level: "info",
-        filename: loggerFileName
-        // ,handleExceptions: true
-        // ,json: true
-        // ,maxsize: 5242880
-        // ,maxFiles: 5
-        // ,colorize: false
-        // ,timestamp: true
-      })
-
 // TODO: find solution: file transport logging cause error if used (eg. logger.error(...))
 // console.log(fileTransport)
 
@@ -31,18 +20,27 @@ const config = {
     "systemEndpoints": "endpoints.json"
   },
   logger: {
-    transports: [
-      new winston.transports.Console({
+    transportFactories: [
+      () => new winston.transports.Console({
         level: "debug",
         handleExceptions: true,
         json: false,
         colorize: true,
         timestamp: true
+      }),
+      () => new winston.transports.File({
+        level: "info",
+        filename: loggerFileName
+        // ,handleExceptions: true
+        // ,json: true
+        // ,maxsize: 5242880
+        // ,maxFiles: 5
+        // ,colorize: false
+        // ,timestamp: true
       })
-      , fileTransport
-    ],
-    exitOnError: false
-  }
+    ]
+  },
+  cx: { "test": "cx" }
 }
 
 module.exports = config
