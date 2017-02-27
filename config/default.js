@@ -11,10 +11,7 @@ mkdirp(loggerDir, function (err) {
     return console.log(`Log folder: '${loggerDir}' ('${loggerFileName}')`)
 });
 
-// TODO: find solution: file transport logging cause error if used (eg. logger.error(...))
-// console.log(fileTransport)
-
-// set config options
+/// set config options
 const config = {
   endpoints: {
     "systemEndpoints": "endpoints.json"
