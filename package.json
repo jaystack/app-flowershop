@@ -20,7 +20,7 @@
     "express": "^4.14.0",
     "morgan": "^1.7.0",
     "winston": "^2.2.0",
-    "system-endpoints": "0.0.3"
+    "system-endpoints": "~0.0.5"
   },
   "devDependencies": {
     "@types/config": "0.0.30",
