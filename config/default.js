@@ -13,11 +13,11 @@ mkdirp(loggerDir, function (err) {
 
 /// set config options
 const config = {
-  endpoints: {
+  "endpoints": {
     "systemEndpoints": "endpoints.json"
   },
-  logger: {
-    transportFactories: [
+  "logger": {
+    "transportFactories": [
       () => new winston.transports.Console({
         level: "debug",
         handleExceptions: true,
@@ -36,6 +36,9 @@ const config = {
         ,timestamp: true
       })
     ]
+  },
+  "server": {
+    "port": 9000
   }
 }
 

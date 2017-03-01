@@ -24,7 +24,7 @@ export default sys
   .add('logger', Logger()).dependsOn({ component: 'config', source: 'logger', as: 'config' })
   .add('app', App())
   .add('router', Router()).dependsOn('endpoints', 'app', 'cxSubSystem', 'logger')
-  .add('server', Server('appServer')).dependsOn('endpoints', 'app', 'router')
+  .add('server', Server()).dependsOn('endpoints', 'app', 'router', { component: 'config', source: 'server', as: 'config' })
   .on('componentStart', (componentName: string) => console.log(`Started component: ${componentName}`))
   .on('componentStop', (componentName: string) => console.log(`Stopped component: ${componentName}`))
   .on('start', () => console.log(`Started service: ${name}`))
