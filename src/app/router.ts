@@ -6,18 +6,13 @@ import cx = require('compoxure')
 
 export default function Router() {
   return {
-    async start({endpoints, app, cxSubSystem, logger}) {
-      const {host, port} = endpoints.getServiceEndpoint('appServer')
+    async start({app, cxSubSystem, logger}) {
       app.use(morganLogger('dev'))
       app.use(cookieParser())
       app.use(expressStatic(path.join('./public')));
 
       const pageComposer = cx(cxSubSystem.cx)
       app.use(pageComposer)
-
-      app.listen(port, () => {
-        logger.verbose(`app listening on ${host}:${port}`)
-      })
     }
   }
 }
