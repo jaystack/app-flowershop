@@ -5,12 +5,12 @@ export default function cxConfig() {
       return {
         "cx": {
           "cdn": {
-            "url": `http://${getServiceAddress('itemsServer')}/`
+            "url": `http://${getServiceAddress('localhost:3001')}/`
           },
           "parameters": {
             "servers": {
-              "items": `http://${getServiceAddress('itemsServer')}`,
-              "cart": `http://${getServiceAddress('cartServer')}`
+              "items": `http://${getServiceAddress('localhost:3001')}`,
+              "cart": `http://${getServiceAddress('localhost:3000')}`
             },
             "urls": [
               {
@@ -25,7 +25,7 @@ export default function cxConfig() {
             {
               "pattern": "/cart/.*",
               "timeout": 1000,
-              "target": `http://${getServiceAddress('cartServer')}`,
+              "target": `http://${getServiceAddress('localhost:3000')}`,
               "host": "localhost",
               "ttl": "10s",
               "quietFailure": false,
@@ -38,7 +38,7 @@ export default function cxConfig() {
             {
               "pattern": "^(/|/category/.+|/checkout)$",
               "timeout": 1000,
-              "target": `http://${getServiceAddress('itemsServer')}`,
+              "target": `http://${getServiceAddress('localhost:3001')}`,
               "host": "localhost",
               "ttl": "10s",
               "quietFailure": false,
