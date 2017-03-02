@@ -7,10 +7,11 @@ import CxConfig from './cxConfig'
 import Router from './router'
 const {name} = require('../../package.json')
 
-const inProductionEnv = process.env.NODE_ENV === 'production'
+const inDevelopment = process.env.NODE_ENV === 'dev'
 process.on('unhandledRejection', err => console.error(err))
+console.log(process.env.NODE_ENV)
 
-const sys = new System({ exitOnError: inProductionEnv })
+const sys = new System({ exitOnError: !inDevelopment })
 export function stopSystem() { sys.stop() }
 export function restartSystem() { sys.restart() }
 export default sys
