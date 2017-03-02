@@ -14,7 +14,7 @@ mkdirp(loggerDir, function (err) {
 /// set config options
 const config = {
   "endpoints": {
-    "systemEndpoints": "endpoints.json"
+    "endpointsFilePath": "system-endpoints.json"
   },
   "logger": {
     "transportFactories": [
