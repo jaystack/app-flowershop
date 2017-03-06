@@ -1,3 +1,3 @@
 # app-flowershop
 
-test isFresh
+test isFresh |
