@@ -19,7 +19,7 @@ export default sys
     .add(config => loaders.require({ path: './config/default.js', mandatory: true }))
     .add(config => loaders.require({ path: './config/dev.js', mandatory: false }))
     .add(config => loaders.require({ path: './config/stage.js', mandatory: false }))
-    .add(config => loaders.require({ path: '../config/live.js', mandatory: false })))
+    .add(config => loaders.require({ path: './config/live.js', mandatory: false })))
   .add('endpoints', Endpoints()).dependsOn({ component: 'config', source: 'endpoints', as: 'config' })
   .add('cxSubSystem', CxConfig()).dependsOn('endpoints', { component: 'config', source: 'cx', as: 'config' })
   .add('logger', Logger()).dependsOn({ component: 'config', source: 'logger', as: 'config' })
