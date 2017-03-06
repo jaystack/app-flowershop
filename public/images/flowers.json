@@ -7,7 +7,7 @@
     },
     {
         "Name": "Autumn",
-        "ImageUrl": "/images/flowers/other.jpg",
+        "ImageUrl": "https://s3.eu-central-1.amazonaws.com/flowershop-images/other.jpg",
         "Price": 8.35,
         "Category": "other"
     },
