@@ -29,5 +29,5 @@ export default sys
   .on('componentStart', (componentName: string) => console.log(`Started component: ${componentName}`))
   .on('componentStop', (componentName: string) => console.log(`Stopped component: ${componentName}`))
   .on('start', () => console.log(`Started service: ${name}`))
-  .on('stop', err => console.log(`Stopped service: ${name}`, err || ''))
+  .on('stop', (err, stopErr) => console.log(`Stopped service: ${name}`, err || '', stopErr || ''))
   .start()
