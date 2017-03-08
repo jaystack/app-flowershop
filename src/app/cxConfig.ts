@@ -10,7 +10,8 @@ export default function cxConfig() {
           "parameters": {
             "servers": {
               "items": `http://${getServiceAddress('localhost:3001')}`,
-              "cart": `http://${getServiceAddress('localhost:3000')}`
+              "cart": `http://${getServiceAddress('localhost:3000')}`,
+              "registration": `http://${getServiceAddress('localhost:3007')}`
             },
             "urls": [
               {
@@ -33,6 +34,19 @@ export default function cxConfig() {
               "passThrough": true,
               "headers": [
                 "fs_cart"
+              ]
+            },
+            {
+              "pattern": "/registration",
+              "timeout": 1000,
+              "target": `http://${getServiceAddress('localhost:3007')}`,
+              "host": "localhost",
+              "ttl": "10s",
+              "quietFailure": false,
+              "dontPassUrl": false,
+              "passThrough": true,
+              "headers": [
+                "fs_isregistrationsuccessful"
               ]
             },
             {
