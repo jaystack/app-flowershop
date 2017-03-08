@@ -37,17 +37,13 @@ export default function cxConfig() {
               ]
             },
             {
-              "pattern": "/registration",
+              "pattern": "/registration/.*",
               "timeout": 1000,
               "target": `http://${getServiceAddress('localhost:3007')}`,
               "host": "localhost",
               "ttl": "10s",
               "quietFailure": false,
-              "dontPassUrl": false,
-              "passThrough": true,
-              "headers": [
-                "fs_isregistrationsuccessful"
-              ]
+              "dontPassUrl": false
             },
             {
               "pattern": "^(/|/category/.+|/checkout)$",
