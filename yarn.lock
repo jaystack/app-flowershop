@@ -2,20 +2,9 @@
 # yarn lockfile v1
 
 
-"@types/amqplib@^0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@types/amqplib/-/amqplib-0.5.1.tgz#d6f8b5838f7820f9424fafb841e44b89aadde0cc"
-  dependencies:
-    "@types/bluebird" "*"
-    "@types/node" "*"
-
-"@types/bluebird@*":
-  version "3.0.37"
-  resolved "https://registry.yarnpkg.com/@types/bluebird/-/bluebird-3.0.37.tgz#2e76b394aa9bea40d04241a31c0887a260283388"
-
 "@types/express-serve-static-core@*":
-  version "4.0.40"
-  resolved "https://registry.yarnpkg.com/@types/express-serve-static-core/-/express-serve-static-core-4.0.40.tgz#168e82978bffc81ee7737bc60728d64733a4f37b"
+  version "4.0.41"
+  resolved "https://registry.yarnpkg.com/@types/express-serve-static-core/-/express-serve-static-core-4.0.41.tgz#05df354cbbe5069b4c089320065870033f41e670"
   dependencies:
     "@types/node" "*"
 
@@ -101,8 +90,8 @@ accepts@~1.2.12, accepts@~1.2.13:
     negotiator "0.5.3"
 
 ajv@^4.9.1:
-  version "4.11.4"
-  resolved "http://sinopia.jaystack.com/ajv/-/ajv-4.11.4.tgz#ebf3a55d4b132ea60ff5847ae85d2ef069960b45"
+  version "4.11.5"
+  resolved "http://sinopia.jaystack.com/ajv/-/ajv-4.11.5.tgz#b6ee74657b993a01dce44b7944d56f485828d5bd"
   dependencies:
     co "^4.6.0"
     json-stable-stringify "^1.0.1"
@@ -110,15 +99,6 @@ ajv@^4.9.1:
 amdefine@>=0.0.4:
   version "1.0.1"
   resolved "http://sinopia.jaystack.com/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
-
-amqplib@latest:
-  version "0.5.1"
-  resolved "http://sinopia.jaystack.com/amqplib/-/amqplib-0.5.1.tgz#7cccfebabe56c2e984ea7a2243f7cefe6fbfc6cf"
-  dependencies:
-    bitsyntax "~0.0.4"
-    bluebird "^3.4.6"
-    buffer-more-ints "0.0.2"
-    readable-stream "1.x >=1.1.9"
 
 any-promise@^1.0.0, any-promise@^1.3.0:
   version "1.3.0"
@@ -132,13 +112,13 @@ asn1@~0.2.3:
   version "0.2.3"
   resolved "http://sinopia.jaystack.com/asn1/-/asn1-0.2.3.tgz#dac8787713c9966849fc8180777ebe9c1ddf3b86"
 
+assert-plus@1.0.0, assert-plus@^1.0.0:
+  version "1.0.0"
+  resolved "http://sinopia.jaystack.com/assert-plus/-/assert-plus-1.0.0.tgz#f12e0f3c5d77b0b1cdd9146942e4e96c1e4dd525"
+
 assert-plus@^0.2.0:
   version "0.2.0"
   resolved "http://sinopia.jaystack.com/assert-plus/-/assert-plus-0.2.0.tgz#d74e1b87e7affc0db8aadb7021f3fe48101ab234"
-
-assert-plus@^1.0.0:
-  version "1.0.0"
-  resolved "http://sinopia.jaystack.com/assert-plus/-/assert-plus-1.0.0.tgz#f12e0f3c5d77b0b1cdd9146942e4e96c1e4dd525"
 
 async@^0.9.0:
   version "0.9.2"
@@ -200,16 +180,6 @@ bcrypt-pbkdf@^1.0.0:
   dependencies:
     tweetnacl "^0.14.3"
 
-bitsyntax@~0.0.4:
-  version "0.0.4"
-  resolved "http://sinopia.jaystack.com/bitsyntax/-/bitsyntax-0.0.4.tgz#eb10cc6f82b8c490e3e85698f07e83d46e0cba82"
-  dependencies:
-    buffer-more-ints "0.0.2"
-
-bluebird@^3.4.6:
-  version "3.5.0"
-  resolved "http://sinopia.jaystack.com/bluebird/-/bluebird-3.5.0.tgz#791420d7f551eea2897453a8a77653f96606d67c"
-
 body-parser@^1.15.2, body-parser@^1.6.7:
   version "1.17.1"
   resolved "http://sinopia.jaystack.com/body-parser/-/body-parser-1.17.1.tgz#75b3bc98ddd6e7e0d8ffe750dfaca5c66993fa47"
@@ -256,10 +226,6 @@ brace-expansion@^1.0.0:
 browser-stdout@1.3.0:
   version "1.3.0"
   resolved "http://sinopia.jaystack.com/browser-stdout/-/browser-stdout-1.3.0.tgz#f351d32969d32fa5d7a5567154263d928ae3bd1f"
-
-buffer-more-ints@0.0.2:
-  version "0.0.2"
-  resolved "http://sinopia.jaystack.com/buffer-more-ints/-/buffer-more-ints-0.0.2.tgz#26b3885d10fa13db7fc01aae3aab870199e0124c"
 
 buffer-shims@^1.0.0:
   version "1.0.0"
@@ -462,59 +428,42 @@ core-util-is@~1.0.0:
   version "1.0.2"
   resolved "http://sinopia.jaystack.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
 
-corpjs-amqp@0.0.6:
-  version "0.0.6"
-  resolved "http://sinopia.jaystack.com/corpjs-amqp/-/corpjs-amqp-0.0.6.tgz#415ff4789097fe4e4b4afae36a8db434c6d5aa76"
-  dependencies:
-    "@types/amqplib" "^0.5.1"
-    amqplib latest
-    corpjs-endpoints "~0.0.11"
-    corpjs-system "~0.0.28"
-
-corpjs-config@0.0.11:
-  version "0.0.11"
-  resolved "http://sinopia.jaystack.com/corpjs-config/-/corpjs-config-0.0.11.tgz#7bbd3dad0fa2b386a46142b4c24cb5d182afd045"
+corpjs-config@0.1.2:
+  version "0.1.2"
+  resolved "http://sinopia.jaystack.com/corpjs-config/-/corpjs-config-0.1.2.tgz#3931b912ab6aa063b93cb358b78959f2bc2d5a75"
   dependencies:
     confabulous "^1.1.3"
-    corpjs-system "~0.0.27"
+    corpjs-system latest
 
-corpjs-endpoints@0.0.13, corpjs-endpoints@~0.0.11:
-  version "0.0.13"
-  resolved "http://sinopia.jaystack.com/corpjs-endpoints/-/corpjs-endpoints-0.0.13.tgz#f970a535a663fb8664d127d43b582cd2dad592a3"
+corpjs-endpoints@0.1.2:
+  version "0.1.2"
+  resolved "http://sinopia.jaystack.com/corpjs-endpoints/-/corpjs-endpoints-0.1.2.tgz#2494b7f407f029fddf7f0563941465f814755f3f"
   dependencies:
-    corpjs-system "~0.0.27"
+    corpjs-system latest
     fs-promise "^2.0.0"
 
-corpjs-express@0.0.12:
-  version "0.0.12"
-  resolved "http://sinopia.jaystack.com/corpjs-express/-/corpjs-express-0.0.12.tgz#b3055cb4c4fa734306460a7d40500b02606d0596"
+corpjs-express@0.1.3:
+  version "0.1.3"
+  resolved "http://sinopia.jaystack.com/corpjs-express/-/corpjs-express-0.1.3.tgz#a726ab6ee6507de59726fc1302a6643cc7a201c3"
   dependencies:
     "@types/express" "^4.0.35"
     "@types/request" "0.0.40"
     "@types/request-promise-native" "^1.0.2"
-    corpjs-endpoints "~0.0.11"
-    corpjs-system "~0.0.27"
+    corpjs-system latest
     express "^4.14.1"
     rimraf "^2.6.0"
 
-corpjs-logger@0.0.13:
-  version "0.0.13"
-  resolved "http://sinopia.jaystack.com/corpjs-logger/-/corpjs-logger-0.0.13.tgz#d4656796206a38d7893197eb4053f9e125265227"
+corpjs-logger@0.1.2:
+  version "0.1.2"
+  resolved "http://sinopia.jaystack.com/corpjs-logger/-/corpjs-logger-0.1.2.tgz#5c249285cc53e34630ce4ab5dcce403f0deec30e"
   dependencies:
     "@types/winston" "^2.2.0"
-    corpjs-system "~0.0.27"
+    corpjs-system latest
     winston "^2.3.1"
 
-corpjs-system@0.0.46:
-  version "0.0.46"
-  resolved "http://sinopia.jaystack.com/corpjs-system/-/corpjs-system-0.0.46.tgz#ac1ccd269eeecbf5dd45a5d8bd132f481c2dc26b"
-  dependencies:
-    dependency-sorter "^0.1.0"
-    rimraf "^2.6.0"
-
-corpjs-system@~0.0.27, corpjs-system@~0.0.28:
-  version "0.0.37"
-  resolved "http://sinopia.jaystack.com/corpjs-system/-/corpjs-system-0.0.37.tgz#59f7424118c8a4b863a65e97999bfd00c4a51330"
+corpjs-system@0.1.2, corpjs-system@latest:
+  version "0.1.2"
+  resolved "http://sinopia.jaystack.com/corpjs-system/-/corpjs-system-0.1.2.tgz#c5c4b27ff574e2ff2db8d90edc90d1104f4570b3"
   dependencies:
     dependency-sorter "^0.1.0"
     rimraf "^2.6.0"
@@ -530,13 +479,13 @@ cryptiles@2.x.x:
     boom "2.x.x"
 
 csrf@~3.0.0:
-  version "3.0.4"
-  resolved "http://sinopia.jaystack.com/csrf/-/csrf-3.0.4.tgz#ba01423e5b5bea7b655e38b0bdd1323954cbdaa5"
+  version "3.0.5"
+  resolved "http://sinopia.jaystack.com/csrf/-/csrf-3.0.5.tgz#3c3aa86f395dd39f86d68fcf1734a2380f466112"
   dependencies:
     base64-url "1.3.3"
     rndm "1.2.0"
     tsscmp "1.0.5"
-    uid-safe "2.1.3"
+    uid-safe "2.1.4"
 
 csurf@~1.8.3:
   version "1.8.3"
@@ -932,7 +881,7 @@ har-schema@^1.0.5:
   version "1.0.5"
   resolved "http://sinopia.jaystack.com/har-schema/-/har-schema-1.0.5.tgz#d263135f43307c02c602afc8fe95970c0151369e"
 
-har-validator@~4.2.0:
+har-validator@~4.2.1:
   version "4.2.1"
   resolved "http://sinopia.jaystack.com/har-validator/-/har-validator-4.2.1.tgz#33481d0f1bbff600dd203d75812a6a5fba002e2a"
   dependencies:
@@ -1050,8 +999,8 @@ ipaddr.js@1.2.0:
   resolved "http://sinopia.jaystack.com/ipaddr.js/-/ipaddr.js-1.2.0.tgz#8aba49c9192799585bdd643e0ccb50e8ae777ba4"
 
 is-buffer@~1.1.2:
-  version "1.1.4"
-  resolved "http://sinopia.jaystack.com/is-buffer/-/is-buffer-1.1.4.tgz#cfc86ccd5dc5a52fa80489111c6920c457e2d98b"
+  version "1.1.5"
+  resolved "http://sinopia.jaystack.com/is-buffer/-/is-buffer-1.1.5.tgz#1f3b26ef613b214b88cbca23cc6c01d87961eecc"
 
 is-typedarray@~1.0.0:
   version "1.0.0"
@@ -1108,9 +1057,10 @@ jsonify@~0.0.0:
   resolved "http://sinopia.jaystack.com/jsonify/-/jsonify-0.0.0.tgz#2c74b6ee41d93ca51b7b5aaee8f503631d252a73"
 
 jsprim@^1.2.2:
-  version "1.3.1"
-  resolved "http://sinopia.jaystack.com/jsprim/-/jsprim-1.3.1.tgz#2a7256f70412a29ee3670aaca625994c4dcff252"
+  version "1.4.0"
+  resolved "http://sinopia.jaystack.com/jsprim/-/jsprim-1.4.0.tgz#a3b87e40298d8c380552d8cc7628a0bb95a22918"
   dependencies:
+    assert-plus "1.0.0"
     extsprintf "1.0.2"
     json-schema "0.2.3"
     verror "1.3.6"
@@ -1418,17 +1368,13 @@ qs@6.2.0:
   version "6.2.0"
   resolved "http://sinopia.jaystack.com/qs/-/qs-6.2.0.tgz#3b7848c03c2dece69a9522b0fae8c4126d745f3b"
 
-qs@6.4.0:
+qs@6.4.0, qs@~6.4.0:
   version "6.4.0"
   resolved "http://sinopia.jaystack.com/qs/-/qs-6.4.0.tgz#13e26d28ad6b0ffaa91312cd3bf708ed351e7233"
 
 qs@~1.1.0:
   version "1.1.0"
   resolved "http://sinopia.jaystack.com/qs/-/qs-1.1.0.tgz#2845cd9df462b2db28a90370e142d492c5a45dde"
-
-qs@~6.3.0:
-  version "6.3.2"
-  resolved "http://sinopia.jaystack.com/qs/-/qs-6.3.2.tgz#e75bd5f6e268122a2a0e0bda630b2550c166502c"
 
 random-bytes@~1.0.0:
   version "1.0.0"
@@ -1458,18 +1404,9 @@ raw-body@~2.2.0:
     iconv-lite "0.4.15"
     unpipe "1.0.0"
 
-"readable-stream@1.x >=1.1.9", readable-stream@~1.1.8, readable-stream@~1.1.9:
-  version "1.1.14"
-  resolved "http://sinopia.jaystack.com/readable-stream/-/readable-stream-1.1.14.tgz#7cf4c54ef648e3813084c636dd2079e166c081d9"
-  dependencies:
-    core-util-is "~1.0.0"
-    inherits "~2.0.1"
-    isarray "0.0.1"
-    string_decoder "~0.10.x"
-
 readable-stream@^2.0.2:
-  version "2.2.3"
-  resolved "http://sinopia.jaystack.com/readable-stream/-/readable-stream-2.2.3.tgz#9cf49463985df016c8ae8813097a9293a9b33729"
+  version "2.2.5"
+  resolved "http://sinopia.jaystack.com/readable-stream/-/readable-stream-2.2.5.tgz#a0b187304e05bab01a4ce2b4cc9c607d5aa1d606"
   dependencies:
     buffer-shims "^1.0.0"
     core-util-is "~1.0.0"
@@ -1478,6 +1415,15 @@ readable-stream@^2.0.2:
     process-nextick-args "~1.0.6"
     string_decoder "~0.10.x"
     util-deprecate "~1.0.1"
+
+readable-stream@~1.1.8, readable-stream@~1.1.9:
+  version "1.1.14"
+  resolved "http://sinopia.jaystack.com/readable-stream/-/readable-stream-1.1.14.tgz#7cf4c54ef648e3813084c636dd2079e166c081d9"
+  dependencies:
+    core-util-is "~1.0.0"
+    inherits "~2.0.1"
+    isarray "0.0.1"
+    string_decoder "~0.10.x"
 
 redis@^0.12.1:
   version "0.12.1"
@@ -1497,8 +1443,8 @@ reliable-get@0.1.30:
     sf "^0.1.7"
 
 request@^2.39.0, request@^2.48.0:
-  version "2.80.0"
-  resolved "http://sinopia.jaystack.com/request/-/request-2.80.0.tgz#8cc162d76d79381cdefdd3505d76b80b60589bd0"
+  version "2.81.0"
+  resolved "http://sinopia.jaystack.com/request/-/request-2.81.0.tgz#c6928946a0e06c5f8d6f8a9333469ffda46298a0"
   dependencies:
     aws-sign2 "~0.6.0"
     aws4 "^1.2.1"
@@ -1507,7 +1453,7 @@ request@^2.39.0, request@^2.48.0:
     extend "~3.0.0"
     forever-agent "~0.6.1"
     form-data "~2.1.1"
-    har-validator "~4.2.0"
+    har-validator "~4.2.1"
     hawk "~3.1.3"
     http-signature "~1.1.0"
     is-typedarray "~1.0.0"
@@ -1516,10 +1462,11 @@ request@^2.39.0, request@^2.48.0:
     mime-types "~2.1.7"
     oauth-sign "~0.8.1"
     performance-now "^0.2.0"
-    qs "~6.3.0"
+    qs "~6.4.0"
+    safe-buffer "^5.0.1"
     stringstream "~0.0.4"
     tough-cookie "~2.3.0"
-    tunnel-agent "~0.4.1"
+    tunnel-agent "^0.6.0"
     uuid "^3.0.0"
 
 require-all@^2.0.0:
@@ -1548,6 +1495,10 @@ rust-result@^1.0.0:
   resolved "http://sinopia.jaystack.com/rust-result/-/rust-result-1.0.0.tgz#34c75b2e6dc39fe5875e5bdec85b5e0f91536f72"
   dependencies:
     individual "^2.0.0"
+
+safe-buffer@^5.0.1:
+  version "5.0.1"
+  resolved "http://sinopia.jaystack.com/safe-buffer/-/safe-buffer-5.0.1.tgz#d263ca54696cd8a306b5ca6551e92de57918fbe7"
 
 safe-json-parse@^4.0.0:
   version "4.0.0"
@@ -1783,9 +1734,11 @@ tsscmp@1.0.5:
   version "1.0.5"
   resolved "http://sinopia.jaystack.com/tsscmp/-/tsscmp-1.0.5.tgz#7dc4a33af71581ab4337da91d85ca5427ebd9a97"
 
-tunnel-agent@~0.4.1:
-  version "0.4.3"
-  resolved "http://sinopia.jaystack.com/tunnel-agent/-/tunnel-agent-0.4.3.tgz#6373db76909fe570e08d73583365ed828a74eeeb"
+tunnel-agent@^0.6.0:
+  version "0.6.0"
+  resolved "http://sinopia.jaystack.com/tunnel-agent/-/tunnel-agent-0.6.0.tgz#27a5dea06b36b04a0a9966774b290868f0fc40fd"
+  dependencies:
+    safe-buffer "^5.0.1"
 
 tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   version "0.14.5"
@@ -1810,11 +1763,10 @@ uglify-js@~2.3:
     optimist "~0.3.5"
     source-map "~0.1.7"
 
-uid-safe@2.1.3:
-  version "2.1.3"
-  resolved "http://sinopia.jaystack.com/uid-safe/-/uid-safe-2.1.3.tgz#077e264a00b3187936b270bb7376a26473631071"
+uid-safe@2.1.4:
+  version "2.1.4"
+  resolved "http://sinopia.jaystack.com/uid-safe/-/uid-safe-2.1.4.tgz#3ad6f38368c6d4c8c75ec17623fb79aa1d071d81"
   dependencies:
-    base64-url "1.3.3"
     random-bytes "~1.0.0"
 
 uid-safe@~2.0.0:
