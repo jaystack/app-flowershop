@@ -38,15 +38,21 @@ export default function cxConfig() {
             },
             {
               "pattern": "/registration/.*",
+              "pattern_": "^(/registration|/registration/.+)$",
+              "_pattern_": "/registration/.*",
               "timeout": 1000,
               "target": `http://${getServiceAddress('localhost:3007')}`,
               "host": "localhost",
               "ttl": "10s",
               "quietFailure": false,
-              "dontPassUrl": false
+              "dontPassUrl": false,
+              "passThrough": true,
+              "headers": [
+                "fs_cart"
+              ]
             },
             {
-              "pattern": "^(/|/category/.+|/checkout)$",
+              "pattern": "^(/|/category/.+|/checkout|/registration)$",
               "timeout": 1000,
               "target": `http://${getServiceAddress('localhost:3001')}`,
               "host": "localhost",
