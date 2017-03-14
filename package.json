@@ -17,7 +17,6 @@
   "dependencies": {
     "compoxure": "1.0.15",
     "cookie-parser": "1.4.3",
-    "corpjs-amqp": "0.1.8",
     "corpjs-config": "0.1.2",
     "corpjs-endpoints": "0.1.2",
     "corpjs-express": "^0.1.3",
