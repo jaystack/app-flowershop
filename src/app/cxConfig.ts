@@ -52,7 +52,7 @@ export default function cxConfig() {
               ]
             },
             {
-              "pattern": "^(/|/category/.+|/checkout|/registration)$",
+              "pattern": "^(/|/category/.+|/checkout|/registration|/registrationresults)$",
               "timeout": 1000,
               "target": `http://${getServiceAddress('localhost:3001')}`,
               "host": "localhost",
