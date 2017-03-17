@@ -38,8 +38,6 @@ export default function cxConfig() {
             },
             {
               "pattern": "/registration/.*",
-              "pattern_": "^(/registration|/registration/.+)$",
-              "_pattern_": "/registration/.*",
               "timeout": 1000,
               "target": `http://${getServiceAddress('localhost:3007')}`,
               "host": "localhost",
