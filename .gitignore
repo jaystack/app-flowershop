@@ -6,3 +6,4 @@ test/*.js
 .vscode
 system-endpoints.json
 *.log
+config/molinio.json
